@@ -1,7 +1,8 @@
+'''
 # Lista 1-1
 print('Exercício 1')
 salarioM = float(input('Quanto é o seu salário? '))
-print('Seu ganho anual é', salarioM * 12)
+print('Seu ganho anual é R$', salarioM * 12)
 print('')
 
 # Lista 1-2
@@ -16,10 +17,12 @@ print('')
 
 # Lista 1-3
 print('Exercício 3')
-base = float(input('Quanto mede a base do retângulo? '))
-altura = float(input('Quanto mede a altura do retângulo? '))
+# base = float(input('Quanto mede a base do retângulo? '))
+# altura = float(input('Quanto mede a altura do retângulo? '))
+base, altura = map(float, input('Informe a base e a altura do retângulo: ').split())
 print('Perímetro:', (2 * base) + (2 * altura))
 print('Área:', base * altura)
+print('')
 
 # Lista 1-4
 print('Exercício 4')
@@ -38,3 +41,40 @@ print(N, 'x 7 =',N * 7)
 print(N, 'x 8 =',N * 8)
 print(N, 'x 9 =',N * 9)
 print(N, 'x 10 =',N * 10)
+print('')
+
+# Lista 1-5
+print('Exercício 5')
+Nu = int(input('Diga um número inteiro. '))
+print('Antecessor de', Nu, 'é', Nu - 1)
+print('Sucessor de', Nu, 'é', Nu + 1)
+print('')
+
+# Lista 1-6
+print('Exercício 6')
+X = float(input('Escolha um valor para X: '))
+Y = float(input('Agora escolha um valor para Y: '))
+print('Agora vou invertê-los')
+Xsalvo = X
+print('invertendo...')
+X = Y
+Y = Xsalvo
+print('Feito, agora X =', X, 'e Y =', Y)
+print('')
+
+# Lista 1-7
+print('Exercício 7')
+hora, minuto = map(int, input('Que horas são? ').split())
+print('Se passaram', (hora * 60) + minuto, 'minutos desde o início do dia.')
+print('')
+'''
+# Lista 1-8
+print('Exercício 8')
+m = int(input('Informe um valor em reais, desconsiderando centavos: '))
+c100 = m // 100
+c50 = (m % 100) // 50
+c20 = ((m % 100) % 50) // 20
+c10 = (((m % 100) % 50) % 20) // 10
+c5 = ((((m % 100) % 50) % 20) % 10) // 5
+c2 = (((((m % 100) % 50) % 20) % 10) % 5) // 2
+
