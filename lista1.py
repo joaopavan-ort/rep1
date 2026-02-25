@@ -26,7 +26,7 @@ print('Exercício 4')
 N = int(input('Me diz um número de 1 a 10. '))
 if N > 10:
     print('Precisa ser um número de 1 a 10')
-    N = int(input('Me diz um número de 1 a 10, sem gracinhas dessa vez. '))
+    N = int(input('Agora me diz um número de 1 a 10, sem gracinhas dessa vez. '))
 print('Tabuada do', N)
 print(N, 'x 1 =', N * 1)
 print(N, 'x 2 =',N * 2)
