@@ -1,0 +1,13 @@
+# Lista 1-4
+print('Exercício 4')
+N = int(input('Me diz um número e eu irei dizer sua tabuada. '))
+print(N, 'x 1 =', N * 1)
+print(N, 'x 2 =',N * 2)
+print(N, 'x 3 =',N * 3)
+print(N, 'x 4 =',N * 4)
+print(N, 'x 5 =',N * 5)
+print(N, 'x 6 =',N * 6)
+print(N, 'x 7 =',N * 7)
+print(N, 'x 8 =',N * 8)
+print(N, 'x 9 =',N * 9)
+print(N, 'x 10 =',N * 10)
