@@ -1,4 +1,5 @@
 # Lista 1-8
+# Não consegui resolver corretamente, mas fiz o que eu sabia fazer
 print('Exercício 8')
 m = int(input('Informe um valor em reais, desconsiderando centavos: '))
 c100 = m // 100
