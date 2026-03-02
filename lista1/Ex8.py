@@ -17,4 +17,4 @@ print('2:', c2)
 print('Total:', total)
 print('Nº de Notas Usadas:', c100 + c50 + c20 + c10 + c5 + c2)
 if (m - total) > 0:
-    print('Deu errado, soborou', m - total)
+    print('Deu errado, sobrou', m - total)
